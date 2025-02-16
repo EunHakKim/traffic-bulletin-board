@@ -1,7 +1,7 @@
 package myboard.comment.service;
 
 import jakarta.transaction.Transactional;
-import kuke.board.common.snowflake.Snowflake;
+import myboard.common.snowflake.Snowflake;
 import lombok.RequiredArgsConstructor;
 import myboard.comment.entity.Comment;
 import myboard.comment.repository.CommentRepository;

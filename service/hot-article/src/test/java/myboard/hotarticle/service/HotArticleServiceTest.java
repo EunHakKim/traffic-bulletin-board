@@ -1,7 +1,7 @@
 package myboard.hotarticle.service;
 
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventType;
+import myboard.common.event.Event;
+import myboard.common.event.EventType;
 import myboard.hotarticle.service.eventhandler.EventHandler;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,7 +12,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 

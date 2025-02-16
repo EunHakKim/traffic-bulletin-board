@@ -1,8 +1,8 @@
 package myboard.hotarticle.service;
 
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventPayload;
-import kuke.board.common.event.EventType;
+import myboard.common.event.Event;
+import myboard.common.event.EventPayload;
+import myboard.common.event.EventType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import myboard.hotarticle.client.ArticleClient;

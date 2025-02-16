@@ -2,7 +2,7 @@ package myboard.article.data;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import kuke.board.common.snowflake.Snowflake;
+import myboard.common.snowflake.Snowflake;
 import myboard.article.ArticleApplication;
 import myboard.article.entity.Article;
 import org.junit.jupiter.api.Test;

@@ -1,8 +1,8 @@
 package myboard.hotarticle.service.eventhandler;
 
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventType;
-import kuke.board.common.event.payload.ArticleDeletedEventPayload;
+import myboard.common.event.Event;
+import myboard.common.event.EventType;
+import myboard.common.event.payload.ArticleDeletedEventPayload;
 import lombok.RequiredArgsConstructor;
 import myboard.hotarticle.repository.ArticleCreatedTimeRepository;
 import myboard.hotarticle.repository.HotArticleListRepository;

@@ -1,6 +1,6 @@
 package myboard.hotarticle.service;
 
-import kuke.board.common.event.Event;
+import myboard.common.event.Event;
 import myboard.hotarticle.repository.ArticleCreatedTimeRepository;
 import myboard.hotarticle.repository.HotArticleListRepository;
 import myboard.hotarticle.service.eventhandler.EventHandler;
@@ -13,7 +13,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 

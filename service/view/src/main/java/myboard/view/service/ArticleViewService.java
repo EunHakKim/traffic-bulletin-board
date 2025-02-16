@@ -11,7 +11,7 @@ import java.time.Duration;
 @RequiredArgsConstructor
 public class ArticleViewService {
     private final ArticleViewCountRepository articleViewCountRepository;
-    private final ArticleViewCountBackupProcessor articleViewCountBackupProcessor;
+    private final ArticleViewCountBackUpProcessor articleViewCountBackUpProcessor;
     private final ArticleViewDistributedLockRepository articleViewDistributedLockRepository;
 
     private static final int BACK_UP_BACH_SIZE = 100;
@@ -24,7 +24,7 @@ public class ArticleViewService {
 
         Long count = articleViewCountRepository.increase(articleId);
         if (count % BACK_UP_BACH_SIZE == 0) {
-            articleViewCountBackupProcessor.backup(articleId, count);
+            articleViewCountBackUpProcessor.backUp(articleId, count);
         }
         return count;
     }

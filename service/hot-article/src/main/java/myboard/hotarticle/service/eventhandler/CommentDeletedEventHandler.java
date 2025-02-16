@@ -1,8 +1,8 @@
 package myboard.hotarticle.service.eventhandler;
 
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventType;
-import kuke.board.common.event.payload.CommentDeletedEventPayload;
+import myboard.common.event.Event;
+import myboard.common.event.EventType;
+import myboard.common.event.payload.CommentDeletedEventPayload;
 import lombok.RequiredArgsConstructor;
 import myboard.hotarticle.repository.ArticleCommentCountRepository;
 import myboard.hotarticle.utils.TimeCalculatorUtils;

@@ -1,7 +1,7 @@
 package myboard.hotarticle.service;
 
-import kuke.board.common.event.Event;
-import kuke.board.common.event.EventPayload;
+import myboard.common.event.Event;
+import myboard.common.event.EventPayload;
 import lombok.RequiredArgsConstructor;
 import myboard.hotarticle.repository.ArticleCreatedTimeRepository;
 import myboard.hotarticle.repository.HotArticleListRepository;
